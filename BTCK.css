@@ -133,12 +133,15 @@
 .item-logo{
     padding: 0 0 0.5rem;
 }
-.popular-title{
-    
-}
+
 .popular-item{
     background: url('./img/popular-item-bg.png') no-repeat;
     background-size: 100% , 100%;
+}
+.popular-item{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
 }
 .order-now{
     top: 95%;
@@ -152,6 +155,17 @@
     height: 78px;
     padding-top: 8px;
 }
+.order-now:hover{
+    color: #c79c60;
+}
+.popular-item-title:hover{
+    color: #c79c60;
+}
+.popular-item-title hr:hover{
+    color: #c79c60;
+}
+
+
 .special-title{
     bottom: 0;
     left: 0;
